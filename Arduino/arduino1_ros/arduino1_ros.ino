@@ -7,7 +7,7 @@ int count = 0;
 ros::NodeHandle nh;
 
 
-void messageCb(const std_msgs::Int64& toggle_msg)
+void messageCb(const std_msgs::Int64& btn_msg2)
 {
   if(digitalRead(buttonPin) == LOW)
   {
